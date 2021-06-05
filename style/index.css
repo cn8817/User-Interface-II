@@ -139,6 +139,8 @@ button{
 img{
     width:45rem;
     height:45rem;
+    object-fit: cover;
+    object-position: center;
 
 }
 
