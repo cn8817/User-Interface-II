@@ -162,3 +162,50 @@ p{
     display:flex;
     align-items: flex-start;
 }
+
+/*responsive style*/
+
+@media(max-width:800px){
+    .top{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        margin-top:3%;
+    }
+
+    .proj div{
+        width:45%;
+    }
+
+    .proj img{
+        height: 55vh;
+    }
+
+    .social{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:500px){
+
+    .top h1, .middle h2{
+        font-size: 3rem;
+    }
+
+    nav{
+        font-size: 1.5rem;
+    }
+
+    .proj img{
+        height:35vh;
+    }
+}
