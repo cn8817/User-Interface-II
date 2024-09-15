@@ -1,1 +1,164 @@
-/* Add CSS styling here */
+/* Add CSS styling here */html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    font-family: 'Suez One', serif;
+    background-color:black;
+}
+h1, h2, h3{
+    text-align:center;
+    color:#CF77E4;
+}
+h1{
+    font-size:5rem;
+    width:30%;
+}
+h2{
+    font-size:3.5rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding:4% 0;
+}
+a{
+    text-decoration:none;
+    color:#CF77E4;
+}
+
+a:hover {
+    transition:0.5s;
+    color:white;
+}
+button:hover{
+    transition:0.5s;
+    background-color: #282B2B;
+}
+
+.top{
+    width:95%;
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content:space-between;
+    
+}
+
+nav{
+    display:flex;
+    align-items:center;
+}
+
+.link{
+    padding:3%;
+}
+
+.middle{
+    background:url('https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 15%;
+}
+
+h2{
+    
+}
+
+button{
+    padding:2% 3%;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    border:0;
+}
+
+
+.proj{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+img{
+    width:45rem;
+    height:45rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.end{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+p{
+    color:white;
+    text-align:center;
+    margin-bottom:10%;
+}
+
+.social{
+    display:flex;
+    align-items: flex-start;
+}
